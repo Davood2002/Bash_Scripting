@@ -10,3 +10,4 @@ sudo mount /dev/sda1 /mnt/boot/efi
 echo "Partitions mounted successfully."
 sudo chroot /mnt
 echo "Root directory chaned successfully."
+echo "Done"
