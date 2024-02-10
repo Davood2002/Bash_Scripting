@@ -6,4 +6,4 @@ sudo umount /mnt/sys
 sudo umount /mnt || echo "Failed to unmount /mnt"
 echo "unmouting complete"
 echo "Done, everthing is OK."
-echo "--------------------------Done--------------------------"
+echo "---------------------------Done---------------------------"
