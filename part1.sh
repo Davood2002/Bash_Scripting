@@ -10,6 +10,7 @@ sudo mount --bind /run /mnt/run
 sudo mount /dev/sda10 /mnt/home
 sudo mount /dev/sda1 /mnt/boot/efi
 echo "Partitions mounted successfully."
+sduo cp part2.sh /mnt
 echo "Now please run sudo ./part2.sh"
 echo "---------------------------Done---------------------------"
 sudo chroot /mnt
